@@ -1,0 +1,10 @@
+header {
+    padding: 1em;
+}
+
+span {
+    font-size: 2em; 
+    font-weight: bold;
+    color: salmon; 
+    text-decoration: none;
+}
