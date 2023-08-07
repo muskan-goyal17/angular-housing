@@ -1,27 +1,59 @@
-# Housing
+# Housing Application - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+![Housing Application Demo](link-to-demo-gif.gif)
 
-## Development server
+## Table of Contents
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Introduction
+The Housing Application built with Angular is a web application designed to help users search for housing listings. The application fetches data from a JSON server acting as a mockup, allowing users to explore available housing options conveniently.
 
-## Code scaffolding
+## Demo
+![Housing Application Demo](link-to-demo-gif.gif)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Check out the live demo [here](link-to-live-demo)!
 
-## Build
+## Features
+- Search Functionality: The application provides a search feature to find housing listings based on user preferences.
+- Housing Listings: Users can browse through a list of available housing options with relevant details.
+- JSON Server Mockup: Data for the housing listings is fetched from a JSON server acting as a mockup.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
+To run the Housing Application locally, follow these steps:
 
-## Running unit tests
+1. Clone the repository to your local machine:
+```
+git clone https://github.com/your-username/housing-application.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navigate to the project directory:
+```
+cd housing-application
+```
 
-## Running end-to-end tests
+3. Install the required dependencies:
+```
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Start the development server:
+```
+ng serve
+```
 
-## Further help
+5. Open your web browser and go to `http://localhost:4200` to explore the Housing Application.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Usage
+1. Visit the live demo link [here](link-to-live-demo) or run the application locally as explained in the Installation section.
+2. Use the search functionality to filter according to city.
+3. Browse through the available housing listings that match your search criteria.
+4. Click on a listing to view more details and contact information for the property.
+
+## Technologies Used
+- Angular
+- JSON Server
