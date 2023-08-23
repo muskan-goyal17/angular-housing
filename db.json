@@ -99,6 +99,26 @@
  "availableUnits": 6,
  "wifi": true,
  "laundry": true
+ },
+ {
+ "id": 10,
+ "name": "Crystal Towers",
+ "city": "Gary",
+ "state": "IN",
+ "photo": "/assets/joel-filipe-RFDP7_80v5A-unsplash.jpg",
+ "availableUnits": 3,
+ "wifi": true,
+ "laundry": false
+ },
+ {
+ "id": 11,
+ "name": "Bazinga Villa",
+ "city": "Santa Monica",
+ "state": "CA",
+ "photo": "/assets/r-architecture-MAnVoJlQUvg-unsplash.jpg",
+ "availableUnits": 6,
+ "wifi": true,
+ "laundry": true
  }
  ]
  }

@@ -7,6 +7,10 @@
     justify-content: space-around;
 }
 
+form {
+  margin: 1.5em;
+}
+
 input[type="text"] {
   border: 1px solid salmon;
   padding: 10px;
