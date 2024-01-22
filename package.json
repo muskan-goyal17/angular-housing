@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --parallel start json-server",
+    "start": "ng serve ",
     "json-server": "json-server --watch db.json",
-    "build": "ng build",
+    "build": "ng build --parallel start json-server",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
